@@ -5,6 +5,7 @@ import Card from "../../components/Card/Card";
 import ProductsCard from "../../components/ProductsCard/ProductsCard";
 import ScheduleCard from "../../components/ScheduleCard/ScheduleCard";
 import graph from "../../assets/graph.png";
+// import LineGraph from "../../components/Graph/LineChart";
 
 const Dashboard = () => {
   return (
@@ -24,6 +25,7 @@ const Dashboard = () => {
         </div>
         <div className="chart-box">
           <img src={graph} alt="graph" className="chart-box" />
+          {/* <LineGraph /> */}
         </div>
         <div className="main-cards">
           <ProductsCard />
