@@ -1,0 +1,25 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .chart-box {
+      height: 400px;
+      width: 1090px;
+      background-color: rgb(237, 237, 237);
+      border-radius: 30px;
+    }
+  }
+}

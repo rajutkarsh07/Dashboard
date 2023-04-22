@@ -1,13 +1,18 @@
-import "./App.css";
-import Menu from "./components/Menu/Menu";
+import "./App.scss";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Signin from "./pages/Signin/Signin";
 
 function App() {
   return (
-    <>
-      <div>
-        <Menu />
-      </div>
-    </>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/signin" element={<Signin />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
