@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  img {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+  }
+
+  .notification {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
+
+    .search {
+      position: relative;
+
+      .icon {
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        opacity: 0.4;
+      }
+      input {
+        padding: 8px 15px;
+        background: #ffffff;
+        border-radius: 10px;
+        border: none;
+      }
+    }
+  }
+}

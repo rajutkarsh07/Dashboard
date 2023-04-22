@@ -1,5 +1,6 @@
 import "./Dashboard.scss";
 import Menu from "../../components/Menu/Menu";
+import Navbar from "../../components/Navbar/Navbar";
 import Card from "../../components/Card/Card";
 import ProductsCard from "../../components/ProductsCard/ProductsCard";
 import ScheduleCard from "../../components/ScheduleCard/ScheduleCard";
@@ -11,8 +12,8 @@ const Dashboard = () => {
         <Menu />
       </div>
       <div className="right">
-        <div className="menubar">
-          <h2>Dashboard</h2>
+        <div className="navbar">
+          <Navbar />
         </div>
         <div className="cards">
           <Card />
