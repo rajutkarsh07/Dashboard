@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Card from "../../components/Card/Card";
 import ProductsCard from "../../components/ProductsCard/ProductsCard";
 import ScheduleCard from "../../components/ScheduleCard/ScheduleCard";
+import graph from "../../assets/graph.png";
 
 const Dashboard = () => {
   return (
@@ -21,7 +22,9 @@ const Dashboard = () => {
           <Card />
           <Card />
         </div>
-        <div className="chart-box"></div>
+        <div className="chart-box">
+          <img src={graph} alt="graph" className="chart-box" />
+        </div>
         <div className="main-cards">
           <ProductsCard />
           <ScheduleCard />
