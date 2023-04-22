@@ -48,5 +48,9 @@
     p {
       margin-top: 0px;
     }
+    p:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 }

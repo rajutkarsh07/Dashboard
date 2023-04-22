@@ -1,4 +1,5 @@
 import "./Signin.scss";
+import { Link } from "react-router-dom";
 
 function Signin() {
   function refreshPage() {
@@ -30,7 +31,7 @@ function Signin() {
           </div>
           <input type="password" className="inp" placeholder="12345678" />
           <a href="/">Forgot Password?</a>
-          <button className="button" onClick={refreshPage}>
+          <button onClick={refreshPage} className="button">
             Sign In
           </button>
         </div>
