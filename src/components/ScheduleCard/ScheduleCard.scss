@@ -1,0 +1,49 @@
+.schedule-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 20px;
+  width: 477px;
+  background: #ffffff;
+  border-radius: 20px;
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 397px;
+  }
+
+  h4,
+  p {
+    margin: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .items {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .line {
+        width: 0px;
+        height: 60px;
+        // transform: rotate(90deg);
+        border: 4px solid #9bdd7c;
+      }
+      .details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 5px;
+      }
+    }
+  }
+}

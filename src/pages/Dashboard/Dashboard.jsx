@@ -1,6 +1,8 @@
 import "./Dashboard.scss";
 import Menu from "../../components/Menu/Menu";
 import Card from "../../components/Card/Card";
+import ProductsCard from "../../components/ProductsCard/ProductsCard";
+import ScheduleCard from "../../components/ScheduleCard/ScheduleCard";
 
 const Dashboard = () => {
   return (
@@ -19,7 +21,10 @@ const Dashboard = () => {
           <Card />
         </div>
         <div className="chart-box"></div>
-        <div className="main-cards"></div>
+        <div className="main-cards">
+          <ProductsCard />
+          <ScheduleCard />
+        </div>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   gap: 50px;
+  margin-bottom: 20px;
 
   .right {
     display: flex;
@@ -20,6 +21,11 @@
       width: 1090px;
       background-color: rgb(237, 237, 237);
       border-radius: 30px;
+    }
+
+    .main-cards {
+      display: flex;
+      gap: 30px;
     }
   }
 }
